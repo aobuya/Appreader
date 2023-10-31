@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "281220986966",
+    "project_id": "app-reader-e000d",
+    "storage_bucket": "app-reader-e000d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:281220986966:android:bf168558b2f77306dfe3f7",
+        "android_client_info": {
+          "package_name": "com.broadcast.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkz_W02LZlKLRAY3sgAEkUbfJOb6nbb6o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
