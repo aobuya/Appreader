@@ -30,7 +30,12 @@ class RegisterActivity : AppCompatActivity() {
 
         // Initialize Firebase Authentication
         auth = FirebaseAuth.getInstance()
-
+        val currentuser = FirebaseAuth.getInstance().currentUser
+        if(currentuser != null){
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
         // Initialize SharedPreferences
         sharedPreferences = getSharedPreferences("MyPrefs", Context.MODE_PRIVATE)
 

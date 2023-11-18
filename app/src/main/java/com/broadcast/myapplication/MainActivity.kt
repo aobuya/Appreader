@@ -48,10 +48,9 @@ class MainActivity : AppCompatActivity() {
         val appNamesToRetrieve = listOf(
             "ERPLY Latest",
             "FieldSmart",
-            "FieldPro",
             "App Reader",
             "Agent App",
-            "Field App"
+            "COBI.wms"
 
         )
 
